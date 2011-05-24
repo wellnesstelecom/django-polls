@@ -5,7 +5,7 @@ basic poll app
 This small app provides an easy way to include an "user satisfaction poll" in your site.
 
 install
-.......
+-------
 
     pip install django-polls
 
@@ -29,16 +29,16 @@ and finally:
     python manage.py syncdb
 
 usage
-.....
+-----
 
 first create a poll in django admin.
 then add in yout template:
 
-{% polls_form poll next_url %}
+    {% polls_form poll next_url %}
 
 and
 
-{% polls_results poll %}
+    {% polls_results poll %}
 
 being next_url the url where user will be redirected when send poll and poll and Poll object:
 
