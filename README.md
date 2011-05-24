@@ -40,7 +40,7 @@ and
 
     {% polls_results poll %}
 
-being next_url the url where user will be redirected when send poll and poll and Poll object:
+being 'next_url' the url where user will be redirected when user sends the poll, and 'poll' a Poll object:
 
     render_to_response('mytmpl.html' {'poll': Poll.objects.get(pk=poll_id)});
 
