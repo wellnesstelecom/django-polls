@@ -75,7 +75,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.admin',
-    'south',
     'polls'
 )
 
