@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <title>{% block title %}{% endblock %}</title>
+
+      <link rel="SHORTCUT ICON" href="{{MEDIA_URL}}img/favicon.ico" />
+
+      <link rel="stylesheet" href="{{MEDIA_URL}}css/reset.css" type="text/css" />
+      
+      {% block css %} 
+      {% endblock %}
+
+      <script type="text/javascript" src="{{MEDIA_URL}}js/jquery-1.4.2.min.js"></script>
+
+      <script type="text/javascript">
+       //<![CDATA[
+       {% block js %} 
+       {% endblock %}
+
+       $(document).ready(function(){
+        {% block jquery_init %}
+        {% endblock %}
+       })
+       //]]>
+      </script>
+
+      {% block extra_head %}
+      {% endblock %}
+  </head>
+
+  <body>
+  {% block app %}
+  {% endblock %}
+  </body>
+</html>

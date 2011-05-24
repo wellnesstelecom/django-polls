@@ -1,0 +1,27 @@
+{% load i18n poll %}
+
+<div class="poll-show">
+        <h1>{{poll.title}}</h1>
+        <form id="poll-form" action="{% url poll_vote poll.id %}?next={{next}}" method="POST">
+            {% csrf_token %}
+            {% for question in poll.questions.all %}
+            <div class="poll-question">
+                <h2>{{question.question}}</h2>
+                    {% with user|choice_for:question as selected %}
+                    {% if selected %}
+                    <p>You selected <span class="choice">{{selected}}</span></p>
+                    {% else %}
+                        {% for choice in question.choices.all %}
+                        <input type="radio" name="choice_{{question.id}}" id="choice_{{choice.id }}" value="{{ choice.id }}" {% if selected.id == choice.id %} checked="checked" {%endif %}/>
+                        <label for="choice_{{ choice.id}}">{{ choice.text}}</label><br />
+                        {% endfor %}
+                    {% endif %}
+                    {% endwith %}
+            </div>
+            {% endfor %}
+
+            <input class="poll-send" type="submit" value="{% trans "finish" %}" />
+        </form>
+</div>
+
+

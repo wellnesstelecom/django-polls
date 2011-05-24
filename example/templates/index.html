@@ -1,0 +1,28 @@
+{% extends "layouts/base.html" %}
+{% load poll %}
+
+{% block extra_head %}
+    <style>
+        body { line-height: 2em; font-family: Helvetica, sans-serif; }
+        h1 { line-height: 2em; font-size: 3em; letter-spacing: -0.05em; color: #222;}
+        
+        h2 { font-size: 1.5em; letter-spacing: -0.05em; color: #555;}
+        p { font-size: 1em; color: #777; }
+
+        #wrap { margin: 0 auto; text-align: center; width: 600px; }
+        .poll-show, .poll-results { text-align: left;}
+        .poll-question { margin-top: 1.5em;}
+        .poll-send {
+            margin-top: 1.5em;
+            font-size: 1.5em;
+        }
+        .choice { font-weight: bold; }
+    </style>
+{% endblock %}
+{% block app %}
+<div id="wrap">
+    {% poll_show poll %}
+    {% poll_results poll %}
+</div>
+{% endblock %}
+

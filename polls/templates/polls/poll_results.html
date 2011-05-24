@@ -1,0 +1,17 @@
+{% load i18n poll %}
+
+<div class="poll-results">
+    <h1>Results - {{poll.title}}</h1>
+    {% for question in poll.questions.all %}
+    <div class="poll-question">
+        <h2>{{question.question}}</h2>
+        <ul>
+            {% for choice in question.choices.all %}
+            <li class="choice-percent">{{choice}} - {{choice.percentage|floatformat:0}}%</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>
+
+

@@ -1,0 +1,122 @@
+Downloading/unpacking django==1.3
+  Getting page http://pypi.python.org/simple/django
+  URLs to search for versions for django==1.3:
+  * http://pypi.python.org/simple/django/1.3
+  * http://pypi.python.org/simple/django/
+  Getting page http://pypi.python.org/simple/django/1.3
+  Getting page http://pypi.python.org/simple/django/
+  Could not fetch URL http://pypi.python.org/simple/django/1.3: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/django/1.3 when looking for download links for django==1.3
+  Getting page http://www.djangoproject.com/
+  Skipping page http://media.djangoproject.com/releases/1.1/Django-1.1.3.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.4.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.1.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.3.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1/Django-1.1.4.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.5.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.2/Django-1.2.2.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0/Django-1.0.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1/Django-1.1.2.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1/Django-1.1.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Analyzing links from page http://pypi.python.org/simple/Django/
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.2.tar.gz#md5=9cdbf79a31988ace9ef2ab4ede890136 (from http://pypi.python.org/simple/Django/), version: 1.2.2
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.tar.gz#md5=98fa833fdabcdd78d00245aead66c174 (from http://pypi.python.org/simple/Django/), version: 1.2
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.1.tar.gz#md5=2351efb20f6b7b5d9ce80fa4cb1bd9ca (from http://pypi.python.org/simple/Django/), version: 1.2.1
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.1.3.tar.gz#md5=52848c23dbc120fe0b2a8e7189b20306 (from http://pypi.python.org/simple/Django/), version: 1.1.3
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.1.4.tar.gz#md5=e818668acc4de944f85e494ac80f1e7d (from http://pypi.python.org/simple/Django/), version: 1.1.4
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.4.tar.gz#md5=b0e67d3d6447f7eb1ce6392b9465a183 (from http://pypi.python.org/simple/Django/), version: 1.2.4
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.5.tar.gz#md5=e031ea3d00996035e49e4bfa86e07c40 (from http://pypi.python.org/simple/Django/), version: 1.2.5
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.2.3.tar.gz#md5=10bfb5831bcb4d3b1e6298d0e41d6603 (from http://pypi.python.org/simple/Django/), version: 1.2.3
+    Skipping link http://www.djangoproject.com/ (from http://pypi.python.org/simple/Django/); not a file
+    Found link http://media.djangoproject.com/releases/1.1/Django-1.1.3.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1.3
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.4.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2.4
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.1.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2.1
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.3.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2.3
+    Found link http://media.djangoproject.com/releases/1.1/Django-1.1.4.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1.4
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.5.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2.5
+    Found link http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.1-final
+    Found link http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.2-final
+    Found link http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1.1
+    Found link http://media.djangoproject.com/releases/1.2/Django-1.2.2.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.2.2
+    Found link http://media.djangoproject.com/releases/1.0/Django-1.0.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0
+    Found link http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.4
+    Found link http://media.djangoproject.com/releases/1.1/Django-1.1.2.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1.2
+    Found link http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.3
+    Found link http://media.djangoproject.com/releases/1.1/Django-1.1.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1
+  Analyzing links from page http://www.djangoproject.com/
+    Skipping link http://www.djangoproject.com/m/css/homepage.css (from http://www.djangoproject.com/); unknown archive format: .css
+    Skipping link http://www.djangoproject.com/m/css/print.css (from http://www.djangoproject.com/); unknown archive format: .css
+    Skipping link http://www.djangoproject.com/download/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/community/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://c2.com/cgi/wiki?DontRepeatYourself (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/overview/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/install/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/tutorial01/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/db/models/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/db/queries/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/tutorial02/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/http/urls/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/templates/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/cache/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/i18n/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/browser/django/trunk/LICENSE (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.lawrence.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://projects.washingtonpost.com/congress/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.everyblock.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.ljworld.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.tabblo.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.torontolife.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/wiki/DjangoPoweredSites (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2011/feb/10/security-errata/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2011/feb/08/security/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2011/feb/02/django-1_3-release-schedule-update-3/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2011/jan/14/djangocon-eu-2011-announced/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/foundation/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://mediatemple.net/ (from http://www.djangoproject.com/); not a file
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.2.tar.gz#md5=9cdbf79a31988ace9ef2ab4ede890136 (from http://pypi.python.org/simple/Django/), version 1.2.2 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.tar.gz#md5=98fa833fdabcdd78d00245aead66c174 (from http://pypi.python.org/simple/Django/), version 1.2 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.1.tar.gz#md5=2351efb20f6b7b5d9ce80fa4cb1bd9ca (from http://pypi.python.org/simple/Django/), version 1.2.1 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.1.3.tar.gz#md5=52848c23dbc120fe0b2a8e7189b20306 (from http://pypi.python.org/simple/Django/), version 1.1.3 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.1.4.tar.gz#md5=e818668acc4de944f85e494ac80f1e7d (from http://pypi.python.org/simple/Django/), version 1.1.4 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.4.tar.gz#md5=b0e67d3d6447f7eb1ce6392b9465a183 (from http://pypi.python.org/simple/Django/), version 1.2.4 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.5.tar.gz#md5=e031ea3d00996035e49e4bfa86e07c40 (from http://pypi.python.org/simple/Django/), version 1.2.5 doesn't match ==1.3
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.2.3.tar.gz#md5=10bfb5831bcb4d3b1e6298d0e41d6603 (from http://pypi.python.org/simple/Django/), version 1.2.3 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.1/Django-1.1.3.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1.3 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.4.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2.4 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.1.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2.1 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.3.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2.3 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.1/Django-1.1.4.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1.4 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.5.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2.5 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.1-final doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.2-final doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1.1 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.2/Django-1.2.2.tar.gz (from http://pypi.python.org/simple/Django/), version 1.2.2 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.0/Django-1.0.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.4 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.1/Django-1.1.2.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1.2 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.3 doesn't match ==1.3
+  Ignoring link http://media.djangoproject.com/releases/1.1/Django-1.1.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1 doesn't match ==1.3
+  Could not find a version that satisfies the requirement django==1.3 (from versions: )
+No distributions matching the version for django==1.3
+Exception information:
+Traceback (most recent call last):
+  File "/home/javi/wtelecom/virtualenvs/django13/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/home/javi/wtelecom/virtualenvs/django13/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/home/javi/wtelecom/virtualenvs/django13/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 823, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/home/javi/wtelecom/virtualenvs/django13/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/index.py", line 147, in find_requirement
+    raise DistributionNotFound('No distributions matching the version for %s' % req)
+DistributionNotFound: No distributions matching the version for django==1.3
