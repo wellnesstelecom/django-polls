@@ -22,7 +22,7 @@ def poll_vote(request, poll_id):
     for c in request.POST.keys():
         if "choice_" in c:
             try: 
-                choice = Choice.objects.get(pk=request.POST[c][0])
+                choice = Choice.objects.get(pk=request.POST[c])
                 # security check
                 if choice.question.poll.id == p.id:
                     choice.vote(request.user)
